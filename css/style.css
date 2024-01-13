@@ -1,0 +1,161 @@
+
+.btn{
+  
+  color:white;
+  
+}
+
+.input1::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+.input1{
+  background-color: #1e202b;
+}
+.btn:hover{
+  border:1px solid #1e90ff;
+  border-radius: 20px;
+  color: #1e90ff;
+  
+}
+.navbar{
+  background-color: #1e202b;
+}
+.navbar-toggler-icon{
+  color: white;
+}
+
+
+	.buttonIn { 
+	
+		position: relative; 
+	} 
+
+	
+	#clear { 
+    width: 120px;
+		position: absolute; 
+		border-radius: 20px; 
+		right: 10px; 
+		z-index: 2; 
+		border: none; 
+		top:55px; 
+		height: 40px; 
+		cursor: pointer; 
+		color: white; 
+		background-color: #1e90ff; 
+		transform: translateX(2px); 
+	} 
+	
+#second{
+  background-image: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+
+.big-div { 
+  top:400px; 
+  transform: translateX(100px); 
+} 
+
+#third{
+  background-color: #1e202b;
+  height: 400px;
+}
+
+.hi{
+ background-color:rgba(0, 0, 0, 0.1);
+ 
+}
+
+
+/* footer */
+.input2::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+.input2{
+  background-color: #1e202b;
+width: 700px;
+}
+
+
+.buttonlast { 
+	
+  position: relative; 
+} 
+
+
+#clearr { 
+  width: 120px;
+  position: absolute; 
+  border-radius: 20px; 
+  right: 550px; 
+  z-index: 2; 
+  border: none; 
+  top:57px; 
+  height: 40px; 
+  cursor: pointer; 
+  color: white; 
+  background-color: #1e90ff; 
+  transform: translateX(2px); 
+} 
+
+footer{
+  height:200px;
+}
+
+.iconz:hover{
+color: white;
+background-color: #1e90ff; 
+
+}
+
+
+.iconz{
+  background-color: #1e202b;
+  padding: 12px;
+  border-radius: 50%;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #1e90ff;
+}
+/* End footer */
+
+
+/* media query */
+
+@media screen and (max-width: 50em) {
+
+  #second .input1 {
+    width: 100%;
+  }
+
+  #third .col-md-4 {
+    width: 100%;
+
+  }
+  
+  #third{
+    height: 1000px;
+
+}
+
+  #third .hi {
+    text-align: center;
+  }
+
+
+  #clearr { 
+    right: 170px; 
+  width:100px;
+  } 
+  #footer .buttonlast {
+    flex-direction: column;
+  }
+}
+/* end media query */
